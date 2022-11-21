@@ -17,7 +17,7 @@ STM32 toolchain checkout
 3. The source code is generated in C language: [stm32morse.c](pastelink)
    
   - Port A, Pin 5 represent the green LED on the nucleo board
-  - An array is declared to determine the Pin toggling
+  - An array is declared to determine the sequence of pin toggling
 
 | Letter | Morse code | How it's coded ** *() represents delay*|
 | ----------- | ----------- | ----------- |
