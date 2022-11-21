@@ -14,7 +14,7 @@ STM32 toolchain checkout
 ## Procedure
 1. STM32CubeIDE is used as development platform throughout this course
 2. For this milestone, letters **A, F, Y** is translated into morse code and transmitted through the blink of LED on the nucleo board.
-3. The source code is generated in C language: [stm32morse.c](pastelink)
+3. The source code is generated in C language: [stm32morse.c](https://github.com/LuckyLizard-MKEL1123/stm32morse/blob/main/stm32morse.c)
    
   - Port A, Pin 5 represent the green LED on the nucleo board
   - An array is declared to determine the sequence of pin toggling
@@ -29,3 +29,4 @@ STM32 toolchain checkout
 ## Results
 Link for milestone 1.2 demo: [title](pastelink)
 ## References
+
