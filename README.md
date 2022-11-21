@@ -19,12 +19,12 @@ STM32 toolchain checkout
   - Port A, Pin 5 represent the green LED on the nucleo board
   - An array is declared to determine the sequence of pin toggling
 
-| Letter | Morse code | How it's coded ** *() represents delay*|
+| Letter | Morse code | How it's coded ** *() represents delay in ms*|
 | ----------- | ----------- | ----------- |
 | A | • -| ON(500) OFF(500) ON(800) |
 | F | • • - • | ON(500) OFF(500) ON(500) OFF(500) ON(800) OFF(500) ON(500) |
 | Y | - • - -| ON(800) OFF(500) ON(500) OFF(500) ON(800) OFF(500) ON(800) |
-  - There is 2000us delay set between each letter
+  - There is 2s delay set between each letter
   
 ## Results
 Link for milestone 1.2 demo: [title](pastelink)
