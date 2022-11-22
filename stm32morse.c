@@ -96,18 +96,18 @@ int main(void)
   while (1)
   {
 	  	int i;
-	  	int a[20] = {1,1,2,3,1,1,1,1,2,1,1,3,2,1,1,1,2,1,2,3};
+	  	int a[20] = {1,1,2,2,1,1,1,1,2,1,1,2,2,1,1,1,2,1,2,3};
 	  	for (i=0;i<20;i++){
 	  		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
 	  		if (a[i]==1){
-	  			HAL_Delay(500);
+	  			HAL_Delay(300);
 	  		}
 	  		else if (a[i]==2){
-	  			HAL_Delay(800);
+	  			HAL_Delay(900);
 	  		}
 	  		else if (a[i]==3){
-	  			HAL_Delay(2000);
+	  			HAL_Delay(2100);
 	  		}
 	  	}
 
