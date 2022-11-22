@@ -18,13 +18,15 @@ STM32 toolchain checkout
    
   - Port A, Pin 5 represent the green LED on the nucleo board
   - An array is declared to determine the sequence of pin toggling
-
 | Letter | Morse code | How it's coded ** *() represents delay in ms*|
 | ----------- | ----------- | ----------- |
-| A | • -| ON(500) OFF(500) ON(800) |
-| F | • • - • | ON(500) OFF(500) ON(500) OFF(500) ON(800) OFF(500) ON(500) |
-| Y | - • - -| ON(800) OFF(500) ON(500) OFF(500) ON(800) OFF(500) ON(800) |
-  - There is 2s delay set between each letter
+| A | • -| ON(300) OFF(300) ON(900) |
+| F | • • - • | ON(300) OFF(300) ON(300) OFF(300) ON(900) OFF(300) ON(300) |
+| Y | - • - -| ON(900) OFF(300) ON(300) OFF(300) ON(900) OFF(300) ON(900) |
+  - For international Morse code, the length of a dot should be 1 unit which is coded as 300ms delay in this project
+  - Meanwhile, a dash is 3 units where 3x300ms= 900ms.
+  - The space between parts should be 1 unit and space between letters should be 3 units.
+  - Lastly, space between words should be 7 units. So, a delay of 7x300ms=2100ms is introduced after the first cycle of letter A, F, and Y.
   
 ## Results
 Link for milestone 1.2 demo: [title](pastelink)
