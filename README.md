@@ -18,6 +18,7 @@ STM32 toolchain checkout
    
   - Port A, Pin 5 represent the green LED on the nucleo board
   - An array is declared to determine the sequence of pin toggling
+  
 | Letter | Morse code | How it's coded ** *() represents delay in ms*|
 | ----------- | ----------- | ----------- |
 | A | • -| ON(300) OFF(300) ON(900) |
