@@ -30,7 +30,7 @@ STM32 toolchain checkout
   - Lastly, space between words should be 7 units. So, a delay of 7x300ms=2100ms is introduced after the first cycle of letter A, F, and Y.
   
 ## Results
-Link for milestone 1.2 demo: [title](pastelink)
+Link for milestone 1.2 demo: [title](https://www.youtube.com/watch?v=ZBQNvSFa_RU)
 ## References
 1. https://www.digikey.com/en/maker/videos/shawn-hymel/getting-started-with-stm32-and-nucleo-part-1-introduction-to-stm32cubeide-and-blinky
 
